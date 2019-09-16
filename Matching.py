@@ -629,7 +629,7 @@ def match1to3_under(leniency):
                 break
 
 # matching is done walking both lists forward
-def match1to1_forward(leniency):-
+def match1to1_forward(leniency):
     jobsite_index = 0
     group_index = 0
     while jobsite_index < len(unassigned_jobsites):
